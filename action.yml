@@ -1,11 +1,15 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Mobile Action'
+
+description: 'Build Android and iOS executable files'
+
+author: TODO
+
 inputs:
-  milliseconds: # change this
+  path:
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: Project HTML path
+    default: www
+
 runs:
   using: 'node16'
   main: 'dist/index.js'
