@@ -4,7 +4,7 @@ import * as core from '@actions/core'
 async function run(): Promise<void> {
   try {
     const path: string = core.getInput('path')
-    core.debug(`Path: ${path}`)
+    core.info(`Path: ${path}`)
 
     // core.debug(`Waiting ${ms} milliseconds ...`) 
 
